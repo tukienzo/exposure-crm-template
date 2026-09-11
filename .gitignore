@@ -1,0 +1,34 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+
+# Common ignores
+node_modules
+.next/
+.DS_Store
+.vercel
+.env*
+tsconfig.tsbuildinfo
+
+# Checkpoints operativos de cron (no es codigo del repo)
+.toro-ops/
+
+# claves y estado local
+.env.local
+supabase/.temp/
+.claude/settings.local.json
+
+# claves y estado local
+.env.local
+supabase/.temp/
+.claude/settings.local.json
+# fotos del equipo: cada operación pone las suyas
+public/avatars/*
+!public/avatars/.gitkeep
